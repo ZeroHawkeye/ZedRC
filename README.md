@@ -1,7 +1,11 @@
-# Tauri + React
+# ZedRC
 
-This template should help get you started developing with Tauri and React in Vite.
+## Introduce
 
-## Recommended IDE Setup
+> Under Windows, you can customize the registration of zed as the right-click menu. Of course, you can also select any binary file to register
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Preview
+![alt text](doc/images/image1.png)
+*Tip*
+
+- Note that you need to use administrator rights to open ZedRC
