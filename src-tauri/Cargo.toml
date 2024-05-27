@@ -1,9 +1,10 @@
 [package]
 name = "zedrc"
 version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "Add zed to the right-click context menu"
+authors = ["ZeroHawkeye"]
 edition = "2021"
+repository = "https://github.com/ZeroHawkeye/ZedRC"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,7 +12,7 @@ edition = "2021"
 tauri-build = { version = "1", features = [] }
 
 [dependencies]
-tauri = { version = "1", features = [ "dialog-open", "shell-open"] }
+tauri = { version = "1", features = ["dialog-open", "shell-open"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 winreg = "0.52.0"
